@@ -2,6 +2,10 @@ export interface ComponentStructure {
   element: Element;
 }
 
+export interface CardComponentStructure {
+  serie: CardStructure;
+}
+
 export interface CardStructure {
   id: number;
   name: string;

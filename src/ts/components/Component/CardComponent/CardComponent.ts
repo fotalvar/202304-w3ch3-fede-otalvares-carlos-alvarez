@@ -1,7 +1,10 @@
-import { type CardStructure } from "../../../types/types.js";
+import {
+  type CardComponentStructure,
+  type CardStructure,
+} from "../../../types/types.js";
 import Component from "../Component.js";
 
-export class CardComponent extends Component {
+export class CardComponent extends Component implements CardComponentStructure {
   serie: CardStructure;
 
   constructor(parentElement: Element, serie: CardStructure) {
