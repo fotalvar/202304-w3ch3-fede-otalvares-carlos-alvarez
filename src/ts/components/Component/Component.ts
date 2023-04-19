@@ -5,6 +5,7 @@ abstract class Component implements ComponentStructure {
 
   constructor(parentElement: Element, tagName: string, className: string) {
     this.element = document.createElement(tagName);
+    this.element.className = className;
     parentElement.appendChild(this.element);
   }
 }
