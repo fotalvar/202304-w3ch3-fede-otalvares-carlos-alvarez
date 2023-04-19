@@ -14,10 +14,10 @@ export class CardComponent extends Component {
     this.element.innerHTML = `
           <li class="serie">
             <img class="serie__poster"
-              src="https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
-              alt="The Sopranos poster" />
-            <h4 class="serie__title">The Sopranos</h4>
-            <span class="serie__info">David Chase (1999)</span>
+              src="${this.serie.poster}"
+              alt="${this.serie.name} poster" />
+            <h4 class="serie__title">${this.serie.name}</h4>
+            <span class="serie__info">${this.serie.creator} ${this.serie.year}</span>
             <ul class="score">
               <li class="score__star">
                 <button><i class="icon icon--score far fa-star" title="1/5"></i></button>
