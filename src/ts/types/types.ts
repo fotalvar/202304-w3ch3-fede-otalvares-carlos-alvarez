@@ -1,7 +1,5 @@
 export interface ComponentStructure {
   element: Element;
-  className: string;
-  renderHtml: () => void;
 }
 
 export interface CardStructure {
