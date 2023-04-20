@@ -1,4 +1,4 @@
-import { CardComponent } from "./components/Component/CardComponent/CardComponent.js";
+import { CardComponent } from "./components/CardComponent/CardComponent.js";
 import series from "./series/series.js";
 import { type CardStructure } from "./types/types.js";
 

@@ -1,8 +1,8 @@
 import {
   type CardComponentStructure,
   type CardStructure,
-} from "../../../types/types.js";
-import Component from "../Component.js";
+} from "../../types/types.js";
+import Component from "../Component/Component.js";
 
 export class CardComponent extends Component implements CardComponentStructure {
   serie: CardStructure;
